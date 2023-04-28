@@ -1,0 +1,23 @@
+h1{
+    font-style: italic;
+}
+hr{
+    width: 500px;
+}
+#digits{
+    text-align: center;
+    font-style: italic;
+}
+
+.centering{
+    text-align: center;
+}
+button{
+    margin: 5px 3px 10px 5px;
+    padding: 5px 10px;
+    border-radius: 7px;
+    background-color: #90EE90;
+}
+button :hover{
+    background-color: beige;
+}

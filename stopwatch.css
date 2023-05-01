@@ -18,6 +18,8 @@ button{
     border-radius: 7px;
     background-color: #90EE90;
 }
-button :hover{
+
+button:hover{
     background-color: beige;
 }
+

@@ -17,6 +17,8 @@ button{
     padding: 5px 10px;
     border-radius: 7px;
     background-color: #90EE90;
+    border-style: none;
+    font-size: 20px;
 }
 
 button:hover{
@@ -24,5 +26,22 @@ button:hover{
 }
 body{
     background-color: #90b7ee68;
+    font-size: 35px;
 }
 
+button:disabled{
+    background-color: grey;
+    cursor: not-allowed;
+
+}
+
+#lapList1{
+    text-align: center;
+    background-color: #617da568;
+    border-radius: 10px;
+    max-width: 250px;
+    margin: auto;
+   max-height: 450px;
+   overflow-y: scroll;
+
+}

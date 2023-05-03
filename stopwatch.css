@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Source+Code+Pro&display=swap');
 h1{
     font-style: italic;
+    font-family: 'Indie Flower', cursive;
+    
+    font-size: 70px;
 }
 hr{
     width: 500px;
@@ -7,6 +11,10 @@ hr{
 #digits{
     text-align: center;
     font-style: italic;
+    font-family: 'Indie Flower', cursive;
+    
+    font-size: 70px;
+    
 }
 
 .centering{
@@ -27,6 +35,8 @@ button:hover{
 body{
     background-color: #90b7ee68;
     font-size: 35px;
+    top: 150px;
+    position: relative;
 }
 
 button:disabled{
@@ -38,10 +48,19 @@ button:disabled{
 #lapList1{
     text-align: center;
     background-color: #617da568;
-    border-radius: 10px;
+    border-radius: 7px;
     max-width: 250px;
     margin: auto;
-   max-height: 450px;
+   max-height: 100px;
    overflow-y: scroll;
+   font-family: 'Indie Flower', cursive;
+   font-size: 40px;
 
+}
+
+main{
+    background-color: rgba(255, 255, 255, 0.571);
+    border-radius: 20%;
+    
+   
 }

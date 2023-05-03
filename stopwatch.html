@@ -10,18 +10,21 @@
 <body>
     <h1 class="centering" id="text">Stopwatch</h1>
     <hr>
-    <h2 id="digits" width="100px">00:00:00</h2>
+    <main>
+    <h2 id="digits">00:00:00</h2>
     <div class="centering">
         <button onclick="start()" id="start-btn">Start</button>
         <button onclick="stop()" id="stop-btn">Stop</button>
-        <button onclick="addlap()" id="lapList">Lap</button>
         <button onclick="reset()">Reset</button>
+        <br>
+        <button onclick="addlap()" id="lapList">Lap</button>
         
     </div>
+</main>
     <br>
-    <ol id="lapList1">
-        
-    </ol>
+    <ol id="lapList1"></ol>
+
+
 
   <script src="stopwatch.js"></script>  
 </body>
